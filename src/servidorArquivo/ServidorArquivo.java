@@ -27,7 +27,7 @@ public class ServidorArquivo {
     }
 
     public static void main(String[] args) {
-        System.out.println("Servido arquivo operante");
+        System.out.println("Servidor arquivo operante");
         new Thread(new SolicitacaoArquivo()).start();
         escutarServerPrincipal();
     }
